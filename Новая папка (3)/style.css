@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background: #222;
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#tree {
+  margin: 20px auto;
+  width: 100px;
+  position: relative;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 60px solid green;
+  margin: -20px auto;
+}
+
+.trunk {
+  width: 20px;
+  height: 40px;
+  background: brown;
+  margin: 0 auto;
+}
+
+.light {
+  border-bottom-color: gold !important;
+}
+.basket{
+  width: 300px;         
+  height: 200px;        
+  object-fit: cover;    
+  border-radius: 8px;   
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); 
+}
